@@ -13,7 +13,7 @@ Start by cloning the `io-prc-atow` repository. This repository contains essentia
 
 .. code-block:: bash
 
-    git clone https://github.com/io-aero/io-prc-atow
+    git clone https://github.com/io-swiss/io-prc-atow
 
 Install Foundational Software
 -----------------------------
@@ -332,16 +332,16 @@ It helps identify and address any potential problems early in the development pr
 Downloading Database Files (Optional)
 .....................................
 
-Database files can be downloaded from the IO-Aero Google Drive directory
+Database files can be downloaded from the IO-Swiss Aero GmbH Google Drive directory
 `io_aero_data/TO DO/database/TO DO` to your local repository directory `data`.
 Before extracting, if a `postgres` directory exists within the `data` directory, it should be deleted.
 
 Follow these steps to manage the database files:
 
-a. Access the IO-Aero Google Drive Directory:
+a. Access the IO-Swiss Aero GmbH Google Drive Directory:
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Navigate to the IO-Aero Google Drive and locate the directory `io_aero_data/TO DO/database/TO DO`.
+Navigate to the IO-Swiss Aero GmbH Google Drive and locate the directory `io_aero_data/TO DO/database/TO DO`.
 
 b. Download Database Files:
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~

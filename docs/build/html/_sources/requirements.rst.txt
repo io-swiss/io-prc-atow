@@ -3,7 +3,7 @@ Requirements
 
 The required software is listed below.
 Regarding the corresponding software versions, you will find the detailed information in the
-`Release Notes <https://github.com/io-aero/io-prc-atow/blob/main/docs/release_notes.md>`__\.
+`Release Notes <https://github.com/io-swiss/io-prc-atow/blob/main/docs/release_notes.md>`__\.
 
 Operating System
 ------------------

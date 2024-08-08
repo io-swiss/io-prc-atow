@@ -1,6 +1,6 @@
 [project]
 authors = [
-    { name = "Team IO-Aero", email = "info@io-aero.com" },
+    { name = "Team IO-Swiss Aero GmbH", email = "info@io-swiss.com" },
 ]
 classifiers = [
     "Development Status :: 5 - Production/Stable",
@@ -24,20 +24,20 @@ keywords = [
     "application",
 ]
 maintainers = [
-    { name = "Team IO-Aero", email = "info@io-aero.ch" },
+    { name = "Team IO-Swiss Aero GmbH", email = "info@io-swiss.com" },
 ]
 name = "ioprcatow"
 readme = "README.md"
 requires-python = ">=3.10"
-version = "1.0.1"
+version = "1.0.2"
 
 [project.urls]
-"Bug Tracker" = "https://github.com/io-aero/io-prc-atow/issues"
-Documentation = "https://io-aero.github.io/io-prc-atow/"
-Homepage = "https://github.com/io-aero/io-prc-atow"
-"Release History" = "https://io-aero.github.io/io-prc-atow/release_history/"
-"Release Notes" = "https://io-aero.github.io/io-prc-atow/release_notes/"
-Source = "https://github.com/io-aero/io-prc-atow/tree/main/ioprcatow"
+"Bug Tracker" = "https://github.com/io-swiss/io-prc-atow/issues"
+Documentation = "https://io-swiss.github.io/io-prc-atow/"
+Homepage = "https://github.com/io-swiss/io-prc-atow"
+"Release History" = "https://io-swiss.github.io/io-prc-atow/release_history/"
+"Release Notes" = "https://io-swiss.github.io/io-prc-atow/release_notes/"
+Source = "https://github.com/io-swiss/io-prc-atow/tree/main/ioprcatow"
 
 [tool.bandit]
 skips = [

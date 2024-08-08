@@ -1,28 +1,16 @@
 # IO-PRC-ATOW - Template for Application Repositories
 
-This repository is a sample repository for developing Python related IO-Aero applications.
+This repository is a sample repository for developing Python related IO-Swiss Aero GmbH applications.
 
 ## Documentation
 
 The complete documentation for this repository is contained in the GitHub pages [here](https://io-aero.github.io/io-prc-atow/). 
 See that documentation for installation instructions
 
-Further IO-Aero software documentation can be found under the following links.
+Further IO-Swiss Aero GmbH software documentation can be found under the following links.
 
-- [IO-AIRPLANE-SIM - Airplane Simulator](https://io-aero.github.io/io-airplane-sim/)
-- [IO-AVSTATS - Aviation Event Statistics](https://io-aero.github.io/io-avstats/) 
-- [IO-COMMON - Common Elements](https://io-aero.github.io/io-common/) 
-- [IO-DATA-SOURCES - Data Source Documentation](https://io-aero.github.io/io-data-sources/) 
-- [IO-EVAA-MAP-CREATOR - A tool to create EVAA elevation maps](https://io-aero.github.io/io-evaa-map-creator/) 
-- [IO-LANDINGSPOT - Landing spot identification](https://io-aero.github.io/io-landingspot/) 
-- [IO-LIDAR - Lidar Map Processing](https://io-aero.github.io/io-lidar/) 
-- [IO-LIDAR-DATA - Lidar Data Management](https://io-aero.github.io/io-lidar-data/)
-- [IO-MAP-APPS - IO Map Applications](https://io-aero.github.io/io-map-apps/) 
-- [IO-RASTER - Raster Map Processing](https://io-aero.github.io/io-raster/) 
-- [IO-TEMPLATE-LIB - Template for Library Repositories](https://io-aero.github.io/io-template-lib/)
-- [IO-VECTOR - Vector Map Processing](https://io-aero.github.io/io-vector/) 
-- [IO-XPA-CORE - IO-XPA Data Processing](https://io-aero.github.io/io-xpa-core/)
-<!-- - [IO-PRC-ATOW - Template for Application Repositories](https://io-aero.github.io/io-prc-atow/) -->
+- TBD
+<!-- - [IO-PRC-ATOW - Template for Application Repositories](https://io-swiss.github.io/io-prc-atow/) -->
 
 ## Directory and File Structure of this Repository
 
@@ -36,7 +24,7 @@ Further IO-Aero software documentation can be found under the following links.
 | dist              | Dynamic link library version of **IO-PRC-ATOW**. |
 | docs              | Documentation files.                                 |
 | examples          | Scripts for examples and special tests.              |
-| ioprcatow     | Python script files.                                 |
+| ioprcatow         | Python script files.                                 |
 | libs              | Contains libraries that are not used via pip.        |
 | resources         | Selected manuals and software.                       |
 | scripts           | Scripts supporting macOS, Ubuntu and Windows.        |
@@ -60,11 +48,11 @@ Further IO-Aero software documentation can be found under the following links.
 | Makefile                        | Tasks to be executed with the make command.                           |
 | pyproject.toml                  | Optional configuration data for the software quality tools.           |
 | README.md                       | This file.                                                            |
-| run_io_prc_atow             | Main script for using the functionality based on a Nuitka executable. |
-| run_io_prc_atow_dev         | Main script for using the functionality in a development environment. |
-| run_io_prc_atow_prod        | Main script for using the functionality in a productive environment.  |
-| run_io_prc_atow_pytest      | Main script for using the functionality in a test environment.        |
-| run_ioprcatow               | Main script for using the functionality based on a Docker executable. |
+| run_io_prc_atow                 | Main script for using the functionality based on a Nuitka executable. |
+| run_io_prc_atow_dev             | Main script for using the functionality in a development environment. |
+| run_io_prc_atow_prod            | Main script for using the functionality in a productive environment.  |
+| run_io_prc_atow_pytest          | Main script for using the functionality in a test environment.        |
+| run_ioprcatow                   | Main script for using the functionality based on a Docker executable. |
 | settings.io_aero.toml           | Configuration data.                                                   |
 | setup.cfg                       | Configuration data.                                                   |
 

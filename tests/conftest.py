@@ -1,7 +1,7 @@
 # pylint: disable=E1101
 
-# Copyright (c) 2022-2024 IO-Aero. All rights reserved. Use of this
-# source code is governed by the IO-Aero License, that can
+# Copyright (c) 2022-2024 IO-Swiss Aero GmbH. All rights reserved. Use of this
+# source code is governed by the IO-Swiss Aero GmbH License, that can
 # be found in the LICENSE.md file.
 
 # pylint: disable=redefined-outer-name

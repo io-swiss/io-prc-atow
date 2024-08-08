@@ -1,5 +1,5 @@
-# Copyright (c) 2022-2024 IO-Aero. All rights reserved. Use of this
-# source code is governed by the IO-Aero License, that can
+# Copyright (c) 2022-2024 IO-Swiss Aero GmbH. All rights reserved. Use of this
+# source code is governed by the IO-Swiss Aero GmbH License, that can
 # be found in the LICENSE.md file.
 """Global constants and variables."""
 
@@ -49,7 +49,7 @@ INFORMATION_NOT_YET_AVAILABLE = "n/a"
 
 # Library version number.
 IO_PRC_ATOW_VERSION = "9.9.9"
-"""str: The current version number of the IO-Aero template application."""
+"""str: The current version number of the IO-Swiss Aero GmbH template application."""
 
 LOCALE = "en_US.UTF-8"
 """str: Default locale setting for the system to 'en_US.UTF-8', ensuring consistent language and regional format settings."""  # noqa: E501
