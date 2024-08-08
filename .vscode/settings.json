@@ -1,0 +1,14 @@
+{
+    "terminal.integrated.env.linux": {
+        "PYTHONPATH": "iotemplateapp"
+    },
+    "python.analysis.extraPaths": [
+        "iotemplateapp"
+    ],
+    [
+  "python"
+]: {
+        "editor.defaultFormatter": "ms-python.black-formatter",
+        "editor.formatOnSave": true
+    }
+}
