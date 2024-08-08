@@ -24,9 +24,9 @@ print("==========>")  # noqa: T201
 # -- Project information -----------------------------------------------------
 
 # pylint: disable=invalid-name
-author = "IO-Aero Team"
-copyright = "2022 - 2024, IO-Aero"  # pylint: disable=redefined-builtin # noqa: A001
-github_url = f"https://github.com/io-aero/{REPOSITORY_NAME}"
+author = "IO-Swiss Aero GmbH Team"
+copyright = "2022 - 2024, IO-Swiss Aero GmbH"  # pylint: disable=redefined-builtin # noqa: A001
+github_url = f"https://github.com/io-swiss/{REPOSITORY_NAME}"
 project = REPOSITORY_NAME.upper()
 
 try:
@@ -77,15 +77,15 @@ autodoc_default_options = {
 }
 
 extlinks = {
-    "repo": (f"https://github.com/io-aero/{MODULE_NAME}%s", "GitHub Repository"),
+    "repo": (f"https://github.com/io-swiss/{MODULE_NAME}%s", "GitHub Repository"),
 }
 
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 
 # pylint: disable=invalid-name
-html_favicon = "img/IO-Aero_1_Favicon.ico"
-html_logo = "img/IO-Aero_1_Logo.png"
+html_favicon = "img/IO-Swiss Aero GmbH_1_Favicon.ico"
+html_logo = "img/IO-Swiss Aero GmbH_1_Logo.png"
 html_show_sourcelink = False
 html_theme = "furo"
 html_theme_options = {
@@ -100,7 +100,7 @@ master_doc = "index"
 rinoh_documents = [
     {
         "doc": "index",
-        "logo": "img/IO-Aero_1_Logo.png",
+        "logo": "img/IO-Swiss Aero GmbH_1_Logo.png",
         "subtitle": "Manual",
         "target": "manual",
         "title": REPOSITORY_TITLE,

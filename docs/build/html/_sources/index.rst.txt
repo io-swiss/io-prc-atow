@@ -49,7 +49,7 @@ Repository
 
 Link to the repository for accessing the source code and contributing to the project:
 
-`IO-PRC-ATOW GitHub Repository <https://github.com/io-aero/io-prc-atow>`_
+`IO-PRC-ATOW GitHub Repository <https://github.com/io-swiss/io-prc-atow>`_
 
 Version
 .......
