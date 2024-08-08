@@ -1,4 +1,4 @@
-name: iotemplateapp
+name: ioprcatow
 channels:
   - conda-forge
 dependencies:

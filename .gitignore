@@ -13,7 +13,7 @@
 /data/*_postgres.zip
 /data/postgres/
 /data/postgres_test/
-/dist/iotemplateapp.exe
+/dist/ioprcatow.exe
 /dist/linux/
 /dist/macos/
 /dist/windows/
@@ -25,7 +25,7 @@
 Pipfile.lock
 __pycache__
 coverage.lcov
-iotemplateapp.egg-info/
+ioprcatow.egg-info/
 logging_*.log
 resources/Gammadyne/timer.txt
 run_*.log

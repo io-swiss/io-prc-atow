@@ -1,4 +1,4 @@
-# IO-TEMPLATE-APP - File Directory **`scripts`**
+# IO-PRC-ATOW - File Directory **`scripts`**
 
 This directory contains the following scripts:
 

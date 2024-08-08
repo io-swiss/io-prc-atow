@@ -2,8 +2,8 @@
 FROM ubuntu:latest
 
 # Set environment variables
-ENV REPO_MODULE=iotemplateapp
-ENV REPO_UNDERS=io_template_app
+ENV REPO_MODULE=ioprcatow
+ENV REPO_UNDERS=io_prc_atow
 
 # Set the working directory inside the container
 WORKDIR /app

@@ -18,7 +18,7 @@ environment_dev.yml
 LICENSE.md
 Makefile
 README.md
-run_io_template_app_prod.*
-run_io_template_app_pytest.*
+run_io_prc_atow_prod.*
+run_io_prc_atow_pytest.*
 setup.cfg
 user_guide.*

@@ -9,11 +9,11 @@ Detailed instructions for each of these steps are provided below.
 Cloning the Repository
 ----------------------
 
-Start by cloning the `io-template-app` repository. This repository contains essential scripts and configurations needed for the project.
+Start by cloning the `io-prc-atow` repository. This repository contains essential scripts and configurations needed for the project.
 
 .. code-block:: bash
 
-    git clone https://github.com/io-aero/io-template-app
+    git clone https://github.com/io-aero/io-prc-atow
 
 Install Foundational Software
 -----------------------------
@@ -237,7 +237,7 @@ and follow the installation instructions.
 Repository-Specific Installation
 --------------------------------
 
-After installing the basic software, you need to perform installation steps specific to the `io-template-app` repository.
+After installing the basic software, you need to perform installation steps specific to the `io-prc-atow` repository.
 This involves setting up project-specific dependencies and environment configurations.
 To perform the repository-specific installation, the following steps should be performed in a command prompt or a terminal window (depending on the operating system) the repository directory.
 
@@ -300,7 +300,7 @@ then the following entry must then be added to the path variable:;
 
 .. code-block:: batch
 
-   C:\ProgramData\miniconda3\envs\iotemplateapp\Library\bin
+   C:\ProgramData\miniconda3\envs\ioprcatow\Library\bin
 
 System Testing with Unit Tests
 ..............................
@@ -362,7 +362,7 @@ After completing these steps, the database files should reside in the `data` dir
 Creating the Docker Container with PostgreSQL DB
 .................................................
 
-To create the Docker container with PostgreSQL database software, you can use the provided `run_io_template_app` script.
+To create the Docker container with PostgreSQL database software, you can use the provided `run_io_prc_atow` script.
 Depending on your operating system, follow the relevant instructions below:
 
 a. macOS (zsh):
@@ -370,20 +370,20 @@ a. macOS (zsh):
 
 .. code-block:: zsh
 
-   ./scripts/run_io_template_app.zsh s_d_c
+   ./scripts/run_io_prc_atow.zsh s_d_c
 
 b. Ubuntu (sh):
 ~~~~~~~~~~~~~~~
 
 .. code-block:: bash
 
-   ./scripts/run_io_template_app.sh s_d_c
+   ./scripts/run_io_prc_atow.sh s_d_c
 
 c. Windows 10/11 (cmd):
 ~~~~~~~~~~~~~~~~~~~~~~~
 
 .. code-block:: batch
 
-   scripts\run_io_template_app.cmd s_d_c
+   scripts\run_io_prc_atow.cmd s_d_c
 
 These commands will initiate the process of creating the Docker container with PostgreSQL database software.

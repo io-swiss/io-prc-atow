@@ -57,16 +57,16 @@ def _setup_and_teardown() -> None:  # type: ignore
 
 
 # -----------------------------------------------------------------------------
-# Test case: version - Show the IO-TEMPLATE-APP version.
+# Test case: version - Show the IO-PRC-ATOW version.
 # -----------------------------------------------------------------------------
 def test_launcher_version() -> None:
     """Test case: launcher() version."""
     assert settings.check_value == "test", "Settings check_value is not 'test'"
 
     commands = {
-        "Darwin": ["./run_io_template_app_pytest.zsh", "version"],
-        "Linux": ["./run_io_template_app_pytest.sh", "version"],
-        "Windows": ["cmd.exe", "/c", "run_io_template_app_pytest.bat", "version"],
+        "Darwin": ["./run_io_prc_atow_pytest.zsh", "version"],
+        "Linux": ["./run_io_prc_atow_pytest.sh", "version"],
+        "Windows": ["cmd.exe", "/c", "run_io_prc_atow_pytest.bat", "version"],
     }
     command = commands.get(platform.system())
     if not command:

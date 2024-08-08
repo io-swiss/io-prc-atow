@@ -1,9 +1,9 @@
 {
     "terminal.integrated.env.linux": {
-        "PYTHONPATH": "iotemplateapp"
+        "PYTHONPATH": "ioprcatow"
     },
     "python.analysis.extraPaths": [
-        "iotemplateapp"
+        "ioprcatow"
     ],
     [
   "python"

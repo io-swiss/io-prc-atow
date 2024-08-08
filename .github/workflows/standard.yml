@@ -9,7 +9,7 @@ env:
   IO_COVERALLS: 'false'
   IO_DOCKER: 'false'
   IO_ODBC: 'false'
-  MODULE: 'iotemplateapp'
+  MODULE: 'ioprcatow'
   PYPI_PAT: ${{ secrets.PYPI_PAT }}
 
 jobs:

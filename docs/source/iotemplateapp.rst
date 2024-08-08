@@ -1,21 +1,21 @@
-iotemplateapp package
+ioprcatow package
 =====================
 
 Submodules
 ----------
 
-iotemplateapp.glob\_local module
+ioprcatow.glob\_local module
 --------------------------------
 
-.. automodule:: iotemplateapp.glob_local
+.. automodule:: ioprcatow.glob_local
    :members:
    :undoc-members:
    :show-inheritance:
 
-iotemplateapp.templateapp module
+ioprcatow.prcatow module
 --------------------------------
 
-.. automodule:: iotemplateapp.templateapp
+.. automodule:: ioprcatow.prcatow
    :members:
    :undoc-members:
    :show-inheritance:
@@ -23,7 +23,7 @@ iotemplateapp.templateapp module
 Module contents
 ---------------
 
-.. automodule:: iotemplateapp
+.. automodule:: ioprcatow
    :members:
    :undoc-members:
    :show-inheritance:

@@ -1,10 +1,10 @@
-Welcome to IO-TEMPLATE-APP
+Welcome to IO-PRC-ATOW
 ==========================
 
 General Documentation
 ---------------------
 
-This section contains the core documentation for setting up and starting with IO-TEMPLATE-APP. It covers everything from installation to basic and advanced configurations.
+This section contains the core documentation for setting up and starting with IO-PRC-ATOW. It covers everything from installation to basic and advanced configurations.
 
 .. toctree::
    :maxdepth: 1
@@ -12,7 +12,7 @@ This section contains the core documentation for setting up and starting with IO
    introduction
    requirements
    installation
-   configuration_io_template_app
+   configuration_io_prc_atow
    configuration_logging
    first_steps
    advanced_usage
@@ -20,7 +20,7 @@ This section contains the core documentation for setting up and starting with IO
 API Documentation
 -----------------
 
-Here, you will find detailed API documentation, which includes information about all modules within the IO-TEMPLATE-APP, allowing developers to understand the functionalities available.
+Here, you will find detailed API documentation, which includes information about all modules within the IO-PRC-ATOW, allowing developers to understand the functionalities available.
 
 .. toctree::
    :maxdepth: 2
@@ -30,7 +30,7 @@ Here, you will find detailed API documentation, which includes information about
 About
 -----
 
-This section provides additional context and legal information about IO-TEMPLATE-APP, including release notes and licensing details.
+This section provides additional context and legal information about IO-PRC-ATOW, including release notes and licensing details.
 
 .. toctree::
    :maxdepth: 1
@@ -49,9 +49,9 @@ Repository
 
 Link to the repository for accessing the source code and contributing to the project:
 
-`IO-TEMPLATE-APP GitHub Repository <https://github.com/io-aero/io-template-app>`_
+`IO-PRC-ATOW GitHub Repository <https://github.com/io-aero/io-prc-atow>`_
 
 Version
 .......
 
-This documentation is for IO-TEMPLATE-APP version |version|.
+This documentation is for IO-PRC-ATOW version |version|.

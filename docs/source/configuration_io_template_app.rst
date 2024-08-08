@@ -1,5 +1,5 @@
 =============================
-Configuration IO-TEMPLATE-APP
+Configuration IO-PRC-ATOW
 =============================
 
 .act_secrets

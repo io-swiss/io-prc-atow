@@ -2,7 +2,7 @@
 Configuration Logging
 =====================
 
-In **IO-TEMPLATE-APP** the Python standard module for logging is used - details can be found `here <https://docs.python.org/3/library/logging.config.html>`_.
+In **IO-PRC-ATOW** the Python standard module for logging is used - details can be found `here <https://docs.python.org/3/library/logging.config.html>`_.
 
 The file ``logging_cfg.yaml`` controls the logging behaviour of the application.
 

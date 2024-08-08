@@ -26,18 +26,18 @@ keywords = [
 maintainers = [
     { name = "Team IO-Aero", email = "info@io-aero.ch" },
 ]
-name = "iotemplateapp"
+name = "ioprcatow"
 readme = "README.md"
 requires-python = ">=3.10"
-version = "1.4.7"
+version = "1.0.1"
 
 [project.urls]
-"Bug Tracker" = "https://github.com/io-aero/io-template-app/issues"
-Documentation = "https://io-aero.github.io/io-template-app/"
-Homepage = "https://github.com/io-aero/io-template-app"
-"Release History" = "https://io-aero.github.io/io-template-app/release_history/"
-"Release Notes" = "https://io-aero.github.io/io-template-app/release_notes/"
-Source = "https://github.com/io-aero/io-template-app/tree/main/iotemplateapp"
+"Bug Tracker" = "https://github.com/io-aero/io-prc-atow/issues"
+Documentation = "https://io-aero.github.io/io-prc-atow/"
+Homepage = "https://github.com/io-aero/io-prc-atow"
+"Release History" = "https://io-aero.github.io/io-prc-atow/release_history/"
+"Release Notes" = "https://io-aero.github.io/io-prc-atow/release_notes/"
+Source = "https://github.com/io-aero/io-prc-atow/tree/main/ioprcatow"
 
 [tool.bandit]
 skips = [
@@ -68,7 +68,7 @@ markers = [
     "issue",
 ]
 norecursedirs = "./tests/helpers"
-pythonpath = "./iotemplateapp/"
+pythonpath = "./ioprcatow/"
 testpaths = "./tests/"
 
 [tool.ruff]
@@ -80,7 +80,7 @@ exclude = [
     ".pytest_cache",
     ".vscode",
     "build",
-    "iotemplateapp.egg-info",
+    "ioprcatow.egg-info",
     "temp",
 ]
 line-length = 100

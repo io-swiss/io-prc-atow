@@ -1,3 +1,3 @@
-# IO-TEMPLATE-APP - File Directory **`resources`**
+# IO-PRC-ATOW - File Directory **`resources`**
 
 This file directory contains general resource files..

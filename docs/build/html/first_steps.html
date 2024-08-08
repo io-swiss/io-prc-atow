@@ -6,7 +6,7 @@
 <link rel="index" title="Index" href="genindex.html" /><link rel="search" title="Search" href="search.html" /><link rel="next" title="Advanced Usage" href="advanced_usage.html" /><link rel="prev" title="Configuration Logging" href="configuration_logging.html" />
 
     <link rel="shortcut icon" href="_static/IO-Aero_1_Favicon.ico"/><!-- Generated with Sphinx 8.0.2 and Furo 2024.08.06 -->
-        <title>First Steps - IO-TEMPLATE-APP 1-4-7 documentation</title>
+        <title>First Steps - IO-PRC-ATOW 1-0-1 documentation</title>
       <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=a746c00c" />
     <link rel="stylesheet" type="text/css" href="_static/styles/furo.css?v=354aac6f" />
     <link rel="stylesheet" type="text/css" href="_static/styles/furo-extensions.css?v=302659d7" />
@@ -166,7 +166,7 @@
       </label>
     </div>
     <div class="header-center">
-      <a href="index.html"><div class="brand">IO-TEMPLATE-APP 1-4-7 documentation</div></a>
+      <a href="index.html"><div class="brand">IO-PRC-ATOW 1-0-1 documentation</div></a>
     </div>
     <div class="header-right">
       <div class="theme-toggle-container theme-toggle-header">
@@ -204,14 +204,13 @@
 <li class="toctree-l1"><a class="reference internal" href="introduction.html">Introduction</a></li>
 <li class="toctree-l1"><a class="reference internal" href="requirements.html">Requirements</a></li>
 <li class="toctree-l1"><a class="reference internal" href="installation.html">Installation</a></li>
-<li class="toctree-l1"><a class="reference internal" href="configuration_io_template_app.html">Configuration IO-TEMPLATE-APP</a></li>
 <li class="toctree-l1"><a class="reference internal" href="configuration_logging.html">Configuration Logging</a></li>
 <li class="toctree-l1 current current-page"><a class="current reference internal" href="#">First Steps</a></li>
 <li class="toctree-l1"><a class="reference internal" href="advanced_usage.html">Advanced Usage</a></li>
 </ul>
 <ul>
-<li class="toctree-l1 has-children"><a class="reference internal" href="modules.html">iotemplateapp</a><input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" role="switch" type="checkbox"/><label for="toctree-checkbox-1"><div class="visually-hidden">Toggle navigation of iotemplateapp</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
-<li class="toctree-l2"><a class="reference internal" href="iotemplateapp.html">iotemplateapp package</a></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="modules.html">ioprcatow</a><input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" role="switch" type="checkbox"/><label for="toctree-checkbox-1"><div class="visually-hidden">Toggle navigation of ioprcatow</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="ioprcatow.html">ioprcatow package</a></li>
 </ul>
 </li>
 </ul>
@@ -262,8 +261,8 @@ Finally, you will complete the repository-specific installation to set up your e
 Detailed instructions for each of these steps are provided below.</p>
 <section id="cloning-the-repository">
 <h2>Cloning the Repository<a class="headerlink" href="#cloning-the-repository" title="Link to this heading">¶</a></h2>
-<p>Start by cloning the <cite>io-template-app</cite> repository. This repository contains essential scripts and configurations needed for the project.</p>
-<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>git<span class="w"> </span>clone<span class="w"> </span>https://github.com/io-aero/io-template-app
+<p>Start by cloning the <cite>io-prc-atow</cite> repository. This repository contains essential scripts and configurations needed for the project.</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>git<span class="w"> </span>clone<span class="w"> </span>https://github.com/io-aero/io-prc-atow
 </pre></div>
 </div>
 </section>
@@ -443,7 +442,7 @@ Proceed with the subsection that corresponds to your operating system for furthe
 </section>
 <section id="repository-specific-installation">
 <h2>Repository-Specific Installation<a class="headerlink" href="#repository-specific-installation" title="Link to this heading">¶</a></h2>
-<p>After installing the basic software, you need to perform installation steps specific to the <cite>io-template-app</cite> repository.
+<p>After installing the basic software, you need to perform installation steps specific to the <cite>io-prc-atow</cite> repository.
 This involves setting up project-specific dependencies and environment configurations.
 To perform the repository-specific installation, the following steps should be performed in a command prompt or a terminal window (depending on the operating system) the repository directory.</p>
 <section id="setting-up-the-python-environment">
@@ -489,7 +488,7 @@ The virtual environment is automatically activated by the Makefile, so you don�
 </pre></div>
 </div>
 <p>then the following entry must then be added to the path variable:;</p>
-<div class="highlight-batch notranslate"><div class="highlight"><pre><span></span>C<span class="p">:</span><span class="nl">\ProgramData\miniconda3\envs\iotemplateapp\Library\bin</span>
+<div class="highlight-batch notranslate"><div class="highlight"><pre><span></span>C<span class="p">:</span><span class="nl">\ProgramData\miniconda3\envs\ioprcatow\Library\bin</span>
 </pre></div>
 </div>
 </section>
@@ -544,23 +543,23 @@ After completing these steps, the database files should reside in the <cite>data
 </section>
 <section id="creating-the-docker-container-with-postgresql-db">
 <h3>Creating the Docker Container with PostgreSQL DB<a class="headerlink" href="#creating-the-docker-container-with-postgresql-db" title="Link to this heading">¶</a></h3>
-<p>To create the Docker container with PostgreSQL database software, you can use the provided <cite>run_io_template_app</cite> script.
+<p>To create the Docker container with PostgreSQL database software, you can use the provided <cite>run_io_prc_atow</cite> script.
 Depending on your operating system, follow the relevant instructions below:</p>
 <section id="a-macos-zsh">
 <h4>a. macOS (zsh):<a class="headerlink" href="#a-macos-zsh" title="Link to this heading">¶</a></h4>
-<div class="highlight-zsh notranslate"><div class="highlight"><pre><span></span>./scripts/run_io_template_app.zsh<span class="w"> </span>s_d_c
+<div class="highlight-zsh notranslate"><div class="highlight"><pre><span></span>./scripts/run_io_prc_atow.zsh<span class="w"> </span>s_d_c
 </pre></div>
 </div>
 </section>
 <section id="b-ubuntu-sh">
 <h4>b. Ubuntu (sh):<a class="headerlink" href="#b-ubuntu-sh" title="Link to this heading">¶</a></h4>
-<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>./scripts/run_io_template_app.sh<span class="w"> </span>s_d_c
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>./scripts/run_io_prc_atow.sh<span class="w"> </span>s_d_c
 </pre></div>
 </div>
 </section>
 <section id="c-windows-10-11-cmd">
 <h4>c. Windows 10/11 (cmd):<a class="headerlink" href="#c-windows-10-11-cmd" title="Link to this heading">¶</a></h4>
-<div class="highlight-batch notranslate"><div class="highlight"><pre><span></span>scripts\run_io_template_app.cmd s_d_c
+<div class="highlight-batch notranslate"><div class="highlight"><pre><span></span>scripts\run_io_prc_atow.cmd s_d_c
 </pre></div>
 </div>
 <p>These commands will initiate the process of creating the Docker container with PostgreSQL database software.</p>
@@ -704,7 +703,7 @@ Depending on your operating system, follow the relevant instructions below:</p>
       
     </aside>
   </div>
-</div><script src="_static/documentation_options.js?v=c0e1bc32"></script>
+</div><script src="_static/documentation_options.js?v=b33487c3"></script>
     <script src="_static/doctools.js?v=9a2dae69"></script>
     <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
     <script src="_static/scripts/furo.js?v=5fa4622c"></script>
