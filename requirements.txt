@@ -1,1 +1,5 @@
 traffic==2.10.2
+pyopensky==2.8
+jupyter==1.0.0
+scikit-learn==1.5.1
+kneed==0.8.5
