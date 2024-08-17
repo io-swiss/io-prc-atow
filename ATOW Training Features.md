@@ -1,4 +1,10 @@
-To predict the actual takeoff weight of an aircraft using data from the OpenSky Network and additional weather information, you should consider collecting and engineering features that capture the characteristics of the flight, the aircraft, and the environmental conditions. Here are some key features to consider:
+OSN PRC Chellange: https://ansperformance.eu/study/data-challenge/
+Data: https://ansperformance.eu/study/data-challenge/data.html
+Ranking: https://ansperformance.eu/study/data-challenge/rankings.html
+
+To predict the actual takeoff weight of an aircraft using data from the OpenSky Network with additional weather information, requires collecting and engineering features that capture the characteristics of the flight, the aircraft, and the environmental conditions.
+
+## Some key features:
 
 ### 1. **Flight Characteristics**
    - **Flight Duration**: The expected or actual duration of the flight. This can influence the fuel load, which affects the takeoff weight.
