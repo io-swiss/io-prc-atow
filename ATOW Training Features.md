@@ -1,6 +1,7 @@
-OSN PRC Chellange: https://ansperformance.eu/study/data-challenge/
-Data: https://ansperformance.eu/study/data-challenge/data.html
-Ranking: https://ansperformance.eu/study/data-challenge/rankings.html
+## Links
+* OSN PRC Chellange: https://ansperformance.eu/study/data-challenge/
+* Data: https://ansperformance.eu/study/data-challenge/data.html
+* Ranking: https://ansperformance.eu/study/data-challenge/rankings.html
 
 To predict the actual takeoff weight of an aircraft using data from the OpenSky Network with additional weather information, requires collecting and engineering features that capture the characteristics of the flight, the aircraft, and the environmental conditions.
 
