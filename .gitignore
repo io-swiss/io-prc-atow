@@ -32,5 +32,4 @@ run_*.log
 data/*.parquet
 data/*.minio
 data/*.json
-notebooks/.ipynb_checkpoints/data_visualisation-checkpoint.ipynb
 .DS_Store
