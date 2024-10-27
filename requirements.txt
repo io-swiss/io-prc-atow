@@ -3,3 +3,8 @@ pyopensky==2.8
 jupyter==1.0.0
 scikit-learn==1.5.1
 kneed==0.8.5
+xgboost==2.1.1
+catboost==1.2.7
+dask==2024.9.0
+dask-expr==1.1.14
+shap==0.46.0
