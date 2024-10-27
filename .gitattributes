@@ -11,3 +11,4 @@
 *.pdf binary
 *.png binary
 data/*.csv filter=lfs diff=lfs merge=lfs -text
+submissions/*.csv filter=lfs diff=lfs merge=lfs -text
